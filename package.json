@@ -1,0 +1,14 @@
+{
+  "name": "Demo",
+  "version": "1.0.0",
+  "description": "Microservices project witrh NodeJS",
+  "main": "index.js",
+  "author": "Santosh Narayanan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  }
+}
