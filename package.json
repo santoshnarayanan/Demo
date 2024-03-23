@@ -1,8 +1,14 @@
 {
-  "name": "Demo",
+  "name": "microsevices-practice",
   "version": "1.0.0",
   "description": "Microservices project witrh NodeJS",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-book": "nodemon books/books.js",
+    "dev-customer": "nodemon customers/customers.js",
+    "dev-order": "nodemon orders/orders.js"
+  },
   "author": "Santosh Narayanan",
   "license": "MIT",
   "dependencies": {
